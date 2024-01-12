@@ -28,6 +28,7 @@
             background-color: #fff;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden; /* to contain the floated image */
         }
 
         h1 {
@@ -37,6 +38,14 @@
         p {
             line-height: 1.6;
             margin-bottom: 15px;
+        }
+
+        img {
+            width: 116px; /* Set the desired width */
+            height: 106px; /* Set the desired height */
+            border-radius: 50%;
+            float: left;
+            margin-right: 20px; /* Adjust margin as needed */
         }
 
         a {
@@ -54,6 +63,10 @@
     <header>
         <h1>Greetings! I'm Bhavy Sharma</h1>
     </header>
+    <section>
+        <div>
+            <img src="images/Untitled design (6).png" alt="Bhavy Sharma" />
+        </div>
     <section>
         <p>Welcome to my digital space, where my journey unfolds as a passionate student at CCSU University. As a tech enthusiast and a budding professional in the world of web development and programming, I am thrilled to share my story with you.</p>
 
