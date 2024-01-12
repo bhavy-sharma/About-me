@@ -337,3 +337,8 @@ margin: 10rem auto;
 	color: black;
 	text-decoration: none;
 }
+
+
+body, html {
+    width: 100%;
+    }
