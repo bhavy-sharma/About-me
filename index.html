@@ -4,113 +4,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Bhavy Sharma - Web Developer Extraordinaire</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f5f5f5;
-            color: #333;
-        }
-
-        .btn {
-  background-color: DodgerBlue;
-  border: none;
-  color: rgb(255, 255, 255);
-  padding: 12px 30px;
-  cursor: pointer;
-  font-size: 20px;
-}
-
-.btn:hover {
-  background-color: RoyalBlue;
-}
-
-.abc {
-  color: #ffffff;
-}
-        header {
-            background-color: #007bff;
-            color: #fff;
-            text-align: center;
-            padding: 20px;
-        }
-
-        section {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            overflow: hidden; /* to contain the floated image */
-        }
-
-        h1 {
-            color: #ffffff;
-        }
-
-        p {
-            line-height: 1.6;
-            margin-bottom: 15px;
-        }
-
-        img {
-            width: 116px; /* Set the desired width */
-            height: 106px; /* Set the desired height */
-            border-radius: 50%;
-            float: left;
-            margin-right: 20px; /* Adjust margin as needed */
-        }
-
-        
-
-        a {
-            color: #007bff;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
 </head>
 
 <body>
-    <header>
-        <h1>Greetings! I'm Bhavy Sharma</h1>
-    </header>
-    <section>
-        <div>
-            <img src="images/Untitled design (6).png" alt="Bhavy Sharma" />
+    <div class="container">
+        <div class="greeting">
+            <h1>Greetings! I'm Bhavy Sharma</h1>
         </div>
-    <section>
-        <p>Welcome to my digital space, where my journey unfolds as a passionate student at CCSU University. As a tech enthusiast and a budding professional in the world of web development and programming, I am thrilled to share my story with you.</p>
+        <header>
+            <h1>Greetings! I'm Bhavy Sharma</h1>
+        </header>
+        <section>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div>
+                <img src="images/Untitled design (6).png" alt="Bhavy Sharma" />
+            </div>
+            <p>Welcome to my digital space, where my journey unfolds as a passionate student at CCSU University. As a tech enthusiast and a budding professional in the world of web development and programming, I am thrilled to share my story with you.</p>
 
-        <p>My journey as a web developer is marked by a relentless pursuit of creativity and technical excellence. I have harnessed the skills acquired through my education at CCSU University to delve into the intricate world of web development, transforming concepts into dynamic and visually compelling digital landscapes.</p>
+            <p>My journey as a web developer is marked by a relentless pursuit of creativity and technical excellence. I have harnessed the skills acquired through my education at CCSU University to delve into the intricate world of web development, transforming concepts into dynamic and visually compelling digital landscapes.</p>
 
-        <p>Armed with proficiency in HTML, CSS, Python, C, and C++, I embark on the challenge of crafting seamless user experiences and intuitive interfaces. Beyond the code, my creative flair extends to video editing and thumbnail creation, adding an aesthetic touch to the digital realm.</p>
+            <p>Armed with proficiency in HTML, CSS, Python, C, and C++, I embark on the challenge of crafting seamless user experiences and intuitive interfaces. Beyond the code, my creative flair extends to video editing and thumbnail creation, adding an aesthetic touch to the digital realm.</p>
 
-        <p>Originating from a middle-class family, my educational journey began at the Senior Activity School in Hansi for secondary education. Moving to the prestigious Govt. Modal Sanskriti Senior Secondary School in Hansi for senior secondary education, I achieved an impressive 98% in my 10th class and 83% in my 12th class.</p>
+            <p>Originating from a middle-class family, my educational journey began at the Senior Activity School in Hansi for secondary education. Moving to the prestigious Govt. Modal Sanskriti Senior Secondary School in Hansi for senior secondary education, I achieved an impressive 98% in my 10th class and 83% in my 12th class.</p>
 
-        <p>In the realm of coding, I participated in a GitHub competition, earning an Excellence Certificate. This recognition not only boosted my confidence but also fueled my enthusiasm for coding and technology. Education, to me, is not just about grades; it's about holistic development. Serving as a leader in the National Service Scheme (NSS), where I led a group of 50 dedicated volunteers during a camp, honed my leadership skills and instilled a sense of social responsibility.</p>
-
-        <!-- Add more content based on your information -->
-
-    </section>
+            <p>In the realm of coding, I participated in a GitHub competition, earning an Excellence Certificate. This recognition not only boosted my confidence but also fueled my enthusiasm for coding and technology. Education, to me, is not just about grades; it's about holistic development. Serving as a leader in the National Service Scheme (NSS), where I led a group of 50 dedicated volunteers during a camp, honed my leadership skills and instilled a sense of social responsibility.</p>
+        </section>
+    </div>
     <footer>
         <p>Connect with me on social media:</p>
-        <!-- Add your affiliate links for social media handles here -->
         <a href="https://www.facebook.com/profile.php?id=100044978060973" target="_blank">Facebook</a> |
         <a href="https://twitter.com/bhavy__sharma__" target="_blank">Twitter</a> |
-        <a href="https://www.instagram.com/bhavy__sharma__/" target="_blank">Instagram</a> |
-        <!-- Add more social media links as needed -->
+        <a href="https://www.instagram.com/bhavy__sharma__/" target="_blank">Instagram</a>
     </footer>
- <br>
- <h4>Download My Resume</h4>
+    <br>
+    <h4>Download My Resume</h4>
     <button class="btn"><i class="fa fa-download"></i><a class="abc" href="https://drive.google.com/file/d/1NCYQDHSL2TNVStNdXnWb93JBrt-8vwn5/view?usp=sharing">Download</a></button>
+
+    <script>
+        window.addEventListener('load', () => {
+            const header = document.querySelector('header');
+            const sections = document.querySelectorAll('section');
+            const footer = document.querySelector('footer');
+            const greeting = document.querySelector('.greeting');
+            const headerText = header.querySelector('h1');
+
+            // Show the centered text first
+            setTimeout(() => {
+                greeting.classList.add('visible');
+            }, 500); // Adjust the delay if needed
+
+            // Move the header up and show the rest of the content
+            setTimeout(() => {
+                greeting.style.display = 'none';
+                header.classList.add('visible');
+                sections.forEach(section => section.classList.add('visible'));
+                footer.classList.add('visible');
+                document.body.style.overflow = 'auto'; // Allow scrolling after animation
+            }, 2500); // Adjust the delay if needed
+        });
+    </script>
 </body>
 
 </html>
