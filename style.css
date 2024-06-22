@@ -29,6 +29,54 @@ body {
     animation: fadeInCenter 1s ease-in-out forwards;
 }
 
+.btn {
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #91C9FF;
+    outline: none;
+    transition: 1s ease-in-out;
+    position: relative; /* Ensure SVG is correctly positioned */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 100;
+    color: white; /* Ensure button text color is white */
+    text-decoration: none;
+  }
+
+  .btn:hover {
+    transition: 1s ease-in-out;
+    background: #4F95DA;
+  }
+
+  svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+  }
+
+  .btn:hover svg {
+    stroke-dashoffset: -480;
+  }
+
+
+  .abc {
+    color: white;
+    text-decoration: none;
+    z-index: 1; /* Ensure link text is above SVG */
+  }
+
+  .btn i {
+    margin-right: 10px; /* Space between icon and text */
+  }
 /* Header styles */
 header {
     background-color: #1f1f1f; /* Darker background for the header */
@@ -74,6 +122,24 @@ p {
     margin-bottom: 15px;
 }
 
+.btn {
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #91C9FF;
+    outline: none;
+    transition: 1s ease-in-out;
+  }
+
+  .btn:hover {
+    transition: 1s ease-in-out;
+    background: #4F95DA;
+  }
+
+
+
+
 /* Image styles */
 img {
     width: 116px; /* Set the desired width */
@@ -99,7 +165,7 @@ a {
 
 a:hover {
     text-decoration: none;
-    color: #ff3300; /* Change color on hover */
+    color: #ffffff; /* Change color on hover */
 }
 
 /* Footer styles */
