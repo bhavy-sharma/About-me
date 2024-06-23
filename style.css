@@ -156,6 +156,10 @@ button{
     background-color: darkblue;
 }
 
+nav{
+    margin-right: auto;
+}
+
 /* Link styles */
 a {
     color: #ffffff; /* Lighter blue for better visibility */
